@@ -13,3 +13,6 @@ def take_a_number(customer_array, name)
   place_in_line = customer_array.find_index(name)
   puts "Welcome, #{name}. You are number #{place_in_line+1} in line."
 end
+
+def now_serving
+end
