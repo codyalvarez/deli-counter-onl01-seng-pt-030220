@@ -1,6 +1,6 @@
 def line(customer_array)
   if customer_array.count == 0
-    puts "The line currently empty."
+    puts "The line is currently empty."
   else
     phrase = "The line is currently empty."
     customer_array.each_with_index { |customer, index| phrase +="#{index+1}. #{customer}"}
