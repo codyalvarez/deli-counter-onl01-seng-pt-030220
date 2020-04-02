@@ -14,7 +14,7 @@ def take_a_number(customer_array, name)
   puts "Welcome, #{name}. You are number #{place_in_line+1} in line."
 end
 
-def now_serving
+def now_serving(customer_array)
   if customer_array.count == 0
     puts "There is nobody waiting to be served!"
   elsif
